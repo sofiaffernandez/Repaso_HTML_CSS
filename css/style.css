@@ -1,1 +1,77 @@
-/* Aquí el CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    max-height: 100vh;
+}
+
+header{
+    background-color: black;
+    padding: 1,5rem;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+header li{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    margin: 1.5rem;
+    font-size: 1rem;
+}
+
+div.principal{
+    display: flex;
+}
+div.perfil{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    text-align: right;
+    width: 33%;
+}
+img{
+    border-radius: 50%;
+    border:black solid 0.5rem
+}
+h1{
+    font-size: 5rem;
+    font-weight:900;
+    line-height: 6rem;  
+}
+div.texto{
+    margin: 1rem;
+    width: 33%;
+    font-size: 1.10rem;
+    font-weight: 500;
+}
+button{
+    margin-top: 2rem;
+    background-color: rgb(0, 162, 255);
+    color: white;
+    border:none;
+    padding:0.5rem 4rem;
+    font-weight: 750;
+}
+div.lista{
+    margin: 1rem;
+    width: 33%;
+}
+
+div.lista h2{
+    padding-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+li{
+    padding-bottom: 1rem;
+}
